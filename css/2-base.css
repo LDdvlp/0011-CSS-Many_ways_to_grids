@@ -1,0 +1,96 @@
+/* CSS BASE */
+
+:root {
+  
+  --html-bg: Maroon;
+  
+  --body-color: Maroon;
+  --body-bg: Lime;
+
+  --div_container-color: Lime;
+  --div_container-bg: OliveDrab;
+ 
+  --header-color: OliveDrab;
+  --header-bg: OrangeRed;
+
+  --logo-color: OrangeRed;
+  --logo-bg: SlateBlue;
+
+  --img-color: SlateBlue;
+  --img-bg: Tomato;
+
+
+  --nav-color: Tomato;
+  --nav-bg: Navy;
+
+  --ul-color: Navy;
+  --ul-bg: MediumVioletRed;
+
+  --li-color: MediumVioletRed;
+  --li-color: MistyRose;
+
+  --section-color: MistyRose;
+  --section-bg: SteelBlue;
+
+  --article-color: SteelBlue;
+  --article-bg: Snow;
+  
+  --aside-color: Snow;
+  --aside-bg: SpringGreen;
+
+
+
+   
+
+}
+
+html {
+	color: var(--html-color);
+	background-color: var(--html-bg);
+}
+body {
+	color: var(--body-color);
+	background-color: var(--body-bg);
+}
+.container {
+	color: var(--div_container-color);
+	background-color: var(--div_container-bg);
+}
+header {
+	color: var(--header-color);
+	background-color: var(--header-bg);
+}
+.logo {
+	color: var(--logo-color);
+	background-color: var(--logo-bg);
+}
+img {
+	color: var(--img-color);
+	background-color: var(--img-bg);
+}
+nav {
+	color: var(--nav-color);
+	background-color: var(--nav-bg);
+}
+ul {
+	color: var(--ul-color);
+	background-color: var(--ul-bg);
+}
+li {
+	color: var(--li-color);
+	background-color: var(--li-bg);
+}
+section {
+	color: var(--section-color);
+	background-color: var(--section-bg);
+}
+article {
+	color: var(--article-color);
+	background-color: var(--article-bg);
+}
+aside {
+	color: var(--aside-color);
+	background-color: var(--aside-bg);
+}
+
+ 

@@ -1,0 +1,158 @@
+<!-- Définition du type de document (pour HTML5 écrire DOCTYPE en majuscules pour compatibilité XTML5)	-->
+<!DOCTYPE html>
+
+
+<!-- Le HTML commence ici;
+	
+	avec éventuellement l'attribut lang
+	pour préciser la langue utilisée pour le contenu de la page,
+	et pour être utile aux synthèses vocales, pour adopter le bon accent;
+	ex: <html lang="fr">
+
+	avec éventuellement l'attribut dir
+	pour préciser la direction du texte (rendu bidirectionnel du texte);
+	ex : <html lang="fr-fr" dir="ltr">
+	ltr pour left to right.		 																		-->
+
+
+<html lang="fr-fr" dir="ltr">
+
+	<head>
+
+		<!-- Encodage presque universel 																-->
+		<meta charset="utf-8" />
+
+		<!-- ????????????????????												
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">									-->
+		
+		<!-- RWD, media-queries																			-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--
+		<meta name="viewport" content="width=device-width" >											-->
+		
+		<!-- URL de base, permet de raccourcir les autres URL de la page					
+		<base href="http://mysSite.com/" />																-->
+
+		<!-- Mots clés																					-->
+		<meta name="keywords" content="keyword1, keyword2" />
+		
+		<!-- Auteur																						-->
+		<meta name="author" content="auteur" />
+		
+		<!-- Description de la page																		-->
+		<meta name="description" content="description" />
+		
+		<!-- Logiciel(s) utilisé(s) pour la création du site											-->
+		<meta name="generator" content="logiciel générateur" />
+
+		<!-- Appel fichiers CSS																			-->
+		<!-- -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/19-reset.css" />
+        <!-- -->
+        <link rel="stylesheet" type="text/css" media="all" href="css/2-base.css" />
+        <!--
+        <link rel="stylesheet" type="text/css" media="all" href="css/3-additional_base.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/4-screen.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="css/5-print.css" >
+        <link rel="stylesheet" type="text/css" media="speech" href="css/6-screenreader.css" >
+        --> 
+                                               
+
+
+
+
+
+		<!-- Titre de la page dans l'onglet																-->
+      	<title>Many Ways to Grids</title>
+    
+    </head>
+
+    
+
+    <body>
+    body
+    
+        <div class="container" >
+        div.container            
+            <header>
+            header
+                <div class="logo">
+                div.logo            
+                        <img src="images/logo.png" alt="altLogo" />
+                        img 
+                <div>        
+                <nav>
+                nav            
+                    <ul>
+                    ul
+                        <li>li<a href="#">1. Structure brute | RESET CSS</a></li>
+                        <li>li<a href="#">2. Structure brute | BROWSER CSS</a></li>
+                        <li>li<a href="#">.float (The Old Way) without clear </a></li>
+                        <li>li<a href="#">.float (The Old Way) with clear (nav class after-box) </a></li>
+                        <li>li<a href="#">.float (The Old Way) with clear (div id mainTitleWithLogo class clearfix) </a></li>
+                        <li>li<a href="#">. - inline-block (The New Way) </a></li>
+                        <li>li<a href="#">.inline and/or block (nav inline and footersubcase3.1/3.2 block) </a></li>
+                        <li>li<a href="#">. 6 - flexbox</a></li>
+                        <li>li<a href="#">. 7 - grid</a></li>
+                        <li>li<a href="#">.  - table</a></li>
+
+                    </ul>
+                </nav>
+            </header>
+            
+            <section>
+            section
+                <article>
+                article
+                    <p>
+                        PARAGRAPHE 1 : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.
+                    </p>
+                    <p>
+                        PARAGRAPHE 2 : Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.
+                    </p>
+                    <p>
+                        PARAGRAPHE 3 : Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.
+                    </p>
+                </article>
+                <aside>
+                aside
+                    <p>
+                        PARAGRAPHE 4 : Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.
+                    </p>
+                </aside>
+            </section>
+            
+            <footer>
+            footer
+                <div id="tweet">
+                    <h1>Mon dernier tweet</h1>
+                    <p>Hii haaaaaan !</p>
+                    <p>le 12 mai à 23h12</p>
+                </div>
+                <div id="mes_photos">
+                    <h1>Mes photos</h1>
+                    <p><img src="images/photo1.jpg" alt="Photographie" /><img src="images/photo2.jpg" alt="Photographie" /><img src="images/photo3.jpg" alt="Photographie" /><img src="images/photo4.jpg" alt="Photographie" /></p>
+                </div>
+                <div id="mes_amis">
+                    <h1>Mes amis</h1>
+                    <div id="listes_amis">
+                        <ul>
+                            <li><a href="#">Pupi le lapin</a></li>
+                            <li><a href="#">Mr Baobab</a></li>
+                            <li><a href="#">Kaiwaii</a></li>
+                            <li><a href="#">Perceval.eu</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Belette</a></li>
+                            <li><a href="#">Le concombre masqué</a></li>
+                            <li><a href="#">Ptit prince</a></li>
+                            <li><a href="#">Mr Fan</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    /body
+    </body>
+
+</html>
